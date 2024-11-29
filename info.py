@@ -12,7 +12,7 @@ def is_enabled(value, default):
         return default
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
-SESSION = environ.get('SESSION', 'Media_search')
+SESSION = environ.get('SESSION', 'Mediasearch')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
@@ -43,9 +43,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #--------------------------------------------------------------- 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/mehowtopenlinkf")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/mehowtopenlinkf")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/mehowtopenlinkf")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
@@ -72,7 +72,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 START_IMG = (environ.get('START_IMG', 'https://telegra.ph/file/6f72ad58694dec7b55f63.jpg https://telegra.ph/file/1cb608114ad9671c27637.jpg https://telegra.ph/file/b283840fb96ee65267ca6.jpg https://telegra.ph/file/eee5559d97c23bfcfba4b.jpg https://telegra.ph/file/9bd7eafe1b98fc77c1355.jpg https://telegra.ph/file/9924ec3bcd89f676989cc.jpg https://telegra.ph/file/cc48a27960aa981c7b9db.jpg https://telegra.ph/file/757b0ccb2e2c707f18efd.jpg https://telegra.ph/file/f38426c5d8cb18cbc4672.jpg https://telegra.ph/file/e0bb38c399fdc51e88fea.jpg https://telegra.ph/file/89b8404415a2979e1df54.jpg https://telegra.ph/file/57014cde9d2ab03726c9a.jpg https://telegra.ph/file/e783aef5e8988519ad560.jpg https://telegra.ph/file/539be50812560b70495c2.jpg https://telegra.ph/file/d81f0dd0abfcf5bfea8f1.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
+PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/YIx.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
