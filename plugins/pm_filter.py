@@ -957,7 +957,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
+            media="https://cdn.jsdelivr.net/gh/Pavan844/Tg-to-Wordpress@main/welcome.jpeg?raw=true",
             caption=script.ADMIN_CMD_TXT,
             parse_mode=enums.ParseMode.HTML
           ),
@@ -973,7 +973,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
+            media="https://cdn.jsdelivr.net/gh/Pavan844/Tg-to-Wordpress@main/welcome.jpeg?raw=true",
             caption=script.ADMIN_CMD_TXT2,
             parse_mode=enums.ParseMode.HTML
           ),
@@ -1048,7 +1048,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Group_20240921_202540_0001.gif",
+            media="https://cdn.jsdelivr.net/gh/Pavan844/Tg-to-Wordpress@main/welcome.jpeg?raw=true",
             caption=script.GROUP_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
