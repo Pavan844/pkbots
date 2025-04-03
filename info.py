@@ -72,8 +72,8 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 START_IMG = (environ.get('START_IMG', 'https://cdn.statically.io/gh/Pavan844/T2W/main/vsgif_com__.2509184.gif')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://cdn.statically.io/gh/Pavan844/T2W/main/vsgif_com__.2509184.gif')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://vault.pictures/p/c1cac5f51d69461993fa340d07f58153')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://vault.pictures/p/47741ea6393e494a8f248f1d88fa72f8'))
+PAYPICS = (environ.get('PAYPICS', 'https://cdn.jsdelivr.net/gh/Pavan844/Pavan844@main/share_image3568401614294045955.png')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://cdn.jsdelivr.net/gh/Pavan844/Pavan844@refs/heads/main/premium-gold-label_1017-7701.avif'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
